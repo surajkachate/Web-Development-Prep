@@ -5,9 +5,10 @@ A comprehensive repository containing structured study materials, notes, PPTs, d
 ---
 
 # Learn Web Development Basics (PPT-Notes)
-[HTML](https://www.canva.com/design/DAG5uN3b_cU/JGr66BDCILLUWHZ2_loHWA/edit?utm_content=DAG5uN3b_cU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-[CSS](https://www.canva.com/design/DAG5xmOPwAM/0ot25USaGFUHHS1IzdHLRA/edit?utm_content=DAG5xmOPwAM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-[JavaScript](https://www.canva.com/design/DAG54vc1lA4/Qj-fJ_ZhuswjwxjWJ8trmQ/edit?utm_content=DAG54vc1lA4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+- [HTML](https://www.canva.com/design/DAG5uN3b_cU/JGr66BDCILLUWHZ2_loHWA/edit?utm_content=DAG5uN3b_cU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [CSS](https://www.canva.com/design/DAG5xmOPwAM/0ot25USaGFUHHS1IzdHLRA/edit?utm_content=DAG5xmOPwAM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [JavaScript](https://www.canva.com/design/DAG54vc1lA4/Qj-fJ_ZhuswjwxjWJ8trmQ/edit?utm_content=DAG54vc1lA4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
