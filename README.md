@@ -20,7 +20,7 @@ A comprehensive repository containing structured study materials, notes, PPTs, d
 ---
 
 ## Web Development Projects (Code)
-- [Login Register: HTML, CSS, JS](https://docs.google.com/document/d/1JOayrSxnj4G6_9seqpoeVmx-6eh7dkIS8E25YiO_6Mk/edit?tab=t.0) 
+- [Login Register Form: HTML, CSS, JS & Local Storage](https://docs.google.com/document/d/1JOayrSxnj4G6_9seqpoeVmx-6eh7dkIS8E25YiO_6Mk/edit?tab=t.0) 
 
 ---
 
