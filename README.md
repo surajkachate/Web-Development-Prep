@@ -24,7 +24,7 @@ A comprehensive repository containing structured study materials, notes, PPTs, d
 
 ---
 
-## 🚀 What is MEAN?
+## What is MEAN?
 
 **MEAN** is a full-stack JavaScript technology stack consisting of:
 
@@ -35,7 +35,7 @@ A comprehensive repository containing structured study materials, notes, PPTs, d
 
 ---
 
-## 🎯 Repository Purpose
+## Repository Purpose
 
 This repository is created to:
 
@@ -47,7 +47,7 @@ This repository is created to:
 
 ---
 
-## 🧾 Repository Structure
+## Repository Structure
 
 MEAN-Stack-Preparation/
 │
@@ -56,13 +56,13 @@ Each folder contains topic-wise markdown notes, diagrams, examples, and explanat
 
 ---
 
-## 🧠 Topics Covered
+## Topics Covered
 - Web Development Basics
 - MEAN Stack
 
 ---
 
-## 📌 Sample Project
+## Sample Project
 
 - CRUD Application using MEAN
 - Authentication Login System
@@ -71,7 +71,7 @@ Each folder contains topic-wise markdown notes, diagrams, examples, and explanat
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 Make sure you have installed:
 
@@ -83,7 +83,7 @@ Make sure you have installed:
 
 ---
 
-## 🏁 How to Start Learning
+## How to Start Learning
 
 1. Revise JavaScript fundamentals
 2. Learn NodeJS + Express (Backend)
@@ -96,7 +96,7 @@ Make sure you have installed:
 
 ---
 
-## 🧩 Roadmap
+## Roadmap
 
 Week 1 → JS + NodeJS
 Week 2 → Express + REST APIs
@@ -109,7 +109,7 @@ Week 7 → Practice Projects + Optimization
 
 ---
 
-## 🎓 Who Can Use This?
+## Who Can Use This?
 
 - College students
 - Bootcamp learners
@@ -119,13 +119,13 @@ Week 7 → Practice Projects + Optimization
 
 ---
 
-## 📝 Notes & PPTs
+## Notes & PPTs
 
 All presentation slides and study notes are available inside the `PPTs-Notes` folder.
 
 ---
 
-## 🧪 Interview Preparation
+## Interview Preparation
 
 This repository includes:
 
@@ -136,7 +136,7 @@ This repository includes:
 
 ---
 
-## 🛡️ Security Best Practices
+## Security Best Practices
 
 Covered topics include:
 
@@ -148,7 +148,7 @@ Covered topics include:
 
 ---
 
-## 🌐 Deployment Guides
+## Deployment Guides
 
 Learn how to deploy on:
 
@@ -159,7 +159,7 @@ Learn how to deploy on:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
 
@@ -170,13 +170,13 @@ Contributions are welcome!
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source. Use it freely for learning and training.
 
 ---
 
-## ⭐ Support
+## Support
 
 If this repository helps you, please:
 
@@ -186,10 +186,23 @@ If this repository helps you, please:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Suraj Kachate**  
 Software Engineer | Technical Trainer
+## Author
+
+**Suraj Kachate**  
+Software Engineer | Technical Trainer  
+
+### Connect with me  
+[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/surajkachate/)
+[![Instagram](https://skillicons.dev/icons?i=instagram)](https://www.instagram.com/surajkachate/)
+[![Facebook](https://skillicons.dev/icons?i=facebook)](https://www.facebook.com/profile.php?id=61561453864821)
+[![YouTube](https://skillicons.dev/icons?i=youtube)](https://www.youtube.com/@surajkachate)
+[![X](https://skillicons.dev/icons?i=twitter)](YOUR_X_URL)
+[![Threads](https://skillicons.dev/icons?i=threads)](https://www.threads.com/@surajkachate)
+[![Website](https://skillicons.dev/icons?i=wordpress)](https://www.surajkachate.com)
 
 ---
 
