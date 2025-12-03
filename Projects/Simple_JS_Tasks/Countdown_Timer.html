@@ -1,0 +1,61 @@
+<!-- 
+Countdown Timer 
+Requirements: Input number of seconds 
+Start countdown 
+When reaches 0 → show alert “Time’s Up” 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Countdown Timer</title>
+  <style>
+    input {
+      width: 120px;
+      padding: 5px;
+      font-size: 16px;
+    }
+    button {
+      padding: 6px 12px;
+      font-size: 16px;
+      margin-left: 5px;
+    }
+    #display {
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <input type="number" id="seconds" placeholder="Seconds">
+  <button onclick="startCountdown()">Start</button>
+
+  <div id="display"></div>
+
+  <script>
+    let timer;
+
+    function startCountdown() {
+      let timeLeft = parseInt(document.getElementById("seconds").value);
+      document.getElementById("display").innerText = timeLeft + "s";
+
+      clearInterval(timer);
+
+      timer = setInterval(() => {
+        timeLeft--;
+        document.getElementById("display").innerText = timeLeft + "s";
+
+        if (timeLeft <= 0) {
+          clearInterval(timer);
+          document.getElementById("display").innerText = "0s";
+          alert("Time’s Up");
+        }
+      }, 1000);
+    }
+  </script>
+
+</body>
+</html>

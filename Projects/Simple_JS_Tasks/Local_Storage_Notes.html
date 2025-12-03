@@ -1,0 +1,61 @@
+<!-- Local Storage Notes 
+Requirements: 
+Input textbox 
+Save note in localStorage 
+Show saved notes on page reload -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Local Storage Notes</title>
+  <style>
+    textarea {
+      width: 300px;
+      height: 120px;
+      font-size: 16px;
+      padding: 6px;
+    }
+    button {
+      font-size: 16px;
+      padding: 6px 12px;
+      margin-top: 6px;
+    }
+    #notes {
+      margin-top: 15px;
+      font-size: 17px;
+    }
+  </style>
+</head>
+<body>
+
+  <textarea id="noteInput" placeholder="Write a note..."></textarea><br>
+  <button onclick="saveNote()">Save Note</button>
+
+  <div id="notes"></div>
+
+  <script>
+    function saveNote() {
+      const note = document.getElementById("noteInput").value;
+
+      if (!note.trim()) return;
+
+      let notes = JSON.parse(localStorage.getItem("notes")) || [];
+      notes.push(note);
+      localStorage.setItem("notes", JSON.stringify(notes));
+
+      document.getElementById("noteInput").value = "";
+      displayNotes();
+    }
+
+    function displayNotes() {
+      let notes = JSON.parse(localStorage.getItem("notes")) || [];
+      document.getElementById("notes").innerHTML = 
+        "<b>Saved Notes:</b><br><br>" + notes.map(n => "• " + n).join("<br>");
+    }
+
+    displayNotes();
+  </script>
+
+</body>
+</html>

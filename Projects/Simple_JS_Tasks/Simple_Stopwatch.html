@@ -1,0 +1,69 @@
+<!-- 
+Simple Stopwatch 
+Requirements: 
+Three buttons: 
+Start 
+Stop 
+Reset 
+Display time counting in seconds 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Stopwatch</title>
+  <style>
+    body {
+      font-family: Arial;
+      font-size: 22px;
+      padding: 20px;
+    }
+    button {
+      font-size: 18px;
+      padding: 6px 14px;
+      margin-right: 5px;
+    }
+    #display {
+      margin-top: 15px;
+      font-size: 26px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="start()">Start</button>
+  <button onclick="stop()">Stop</button>
+  <button onclick="reset()">Reset</button>
+
+  <div id="display">0s</div>
+
+  <script>
+    let time = 0;
+    let timer = null;
+
+    function start() {
+      if (timer) return;
+      timer = setInterval(() => {
+        time++;
+        document.getElementById("display").innerText = time + "s";
+      }, 1000);
+    }
+
+    function stop() {
+      clearInterval(timer);
+      timer = null;
+    }
+
+    function reset() {
+      stop();
+      time = 0;
+      document.getElementById("display").innerText = "0s";
+    }
+  </script>
+
+</body>
+</html>
+
+

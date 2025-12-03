@@ -1,0 +1,68 @@
+<!-- 
+Simple Calculator 
+Requirements: Two number inputs 
+Buttons: + - × ÷ 
+Display result 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Calculator</title>
+  <style>
+    input {
+      width: 80px;
+      padding: 5px;
+      font-size: 16px;
+      margin: 5px;
+    }
+    button {
+      font-size: 18px;
+      padding: 5px 10px;
+      margin: 5px;
+    }
+    #result {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <input type="number" id="num1" placeholder="Num 1">
+  <input type="number" id="num2" placeholder="Num 2">
+  <br>
+
+  <button onclick="calc('+')">+</button>
+  <button onclick="calc('-')">-</button>
+  <button onclick="calc('*')">×</button>
+  <button onclick="calc('/')">÷</button>
+
+  <div id="result">Result:</div>
+
+
+  <script>
+    function calc(operation) {
+      const a = parseFloat(document.getElementById("num1").value);
+      const b = parseFloat(document.getElementById("num2").value);
+      let r = 0;
+
+      if (operation === "+") r = a + b;
+      if (operation === "-") r = a - b;
+      if (operation === "*") r = a * b;
+      if (operation === "/") {
+        if (b === 0) {
+          document.getElementById("result").innerText = "Result: ❗ Cannot divide by zero";
+          return;
+        }
+        r = a / b;
+      }
+
+      document.getElementById("result").innerText = "Result: " + r;
+    }
+  </script>
+
+</body>
+</html>

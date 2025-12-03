@@ -1,0 +1,38 @@
+<!-- 
+Keyboard key detection 
+Requirements: When user presses any keyboard key, show the key pressed. 
+Example: Press: A 
+Output: You pressed A 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <style>
+    body {
+      font-size: 22px;
+      font-family: Arial;
+      padding: 20px;
+    }
+    #output {
+      margin-top: 20px;
+      font-weight: bold;
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <p>Press any key on your keyboard...</p>
+  <div id="output">Waiting for key...</div>
+
+  <script>
+    document.addEventListener("keydown", function(e) {
+      document.getElementById("output").innerText = "You pressed: " + e.key;
+    });
+  </script>
+
+</body>
+</html>

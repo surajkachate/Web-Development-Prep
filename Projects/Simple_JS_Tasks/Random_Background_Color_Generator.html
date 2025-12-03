@@ -1,0 +1,32 @@
+<!-- Random Background Color Generator 
+Requirements: 
+Create a button 
+On click → change page background to a random color -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Background Color</title>
+  <style>
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="changeColor()">Change Background Color</button>
+
+  <script>
+    function changeColor() {
+      const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+      document.body.style.backgroundColor = randomColor;
+    }
+  </script>
+
+</body>
+</html>

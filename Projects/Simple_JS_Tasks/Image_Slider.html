@@ -1,0 +1,61 @@
+<!-- Image Slider 
+Requirements: 
+Have 3–5 images 
+Show one at a time 
+“Next” & “Previous” buttons change image -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Slider</title>
+  <style>
+    #slider {
+      width: 400px;
+      height: 250px;
+      border: 2px solid #333;
+      object-fit: cover;
+    }
+    button {
+      padding: 8px 12px;
+      margin: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <img id="slider" src="https://via.placeholder.com/400x250?text=Image+1">
+  <br>
+  <button onclick="prev()">Previous</button>
+  <button onclick="next()">Next</button>
+
+  <script>
+    const images = [
+      "https://picsum.photos/id/237/200/300/",
+      "https://picsum.photos/id/238/200/300/",
+      "https://picsum.photos/id/239/200/300/",
+      "https://picsum.photos/id/240/200/300/",
+      "https://picsum.photos/id/241/200/300/"
+    ];
+
+    let index = 0;
+
+    function showImage() {
+      document.getElementById("slider").src = images[index];
+    }
+
+    function next() {
+      index = (index + 1) % images.length;
+      showImage();
+    }
+
+    function prev() {
+      index = (index - 1 + images.length) % images.length;
+      showImage();
+    }
+  </script>
+
+</body>
+</html>

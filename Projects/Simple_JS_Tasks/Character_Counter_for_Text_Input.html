@@ -1,0 +1,41 @@
+<!-- 
+Requirements: 
+When user types in a text box, show live character count below it. 
+Example: 
+Typing: "Hello" → shows: 5 characters 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Character Counter</title>
+  <style>
+    textarea{
+      width: 300px;
+      height: 100px;
+      font-size: 16px;
+    }
+    #charCount {
+      margin-top: 5px;
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <textarea id="textInput" placeholder="Type something..."></textarea>
+  <div id="charCount">0 characters</div>
+
+  <script>
+    const textInput = document.getElementById("textInput");
+    const charCount = document.getElementById("charCount");
+
+    textInput.addEventListener("input", () => {
+      charCount.textContent = `${textInput.value.length} characters`;
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!-- Create a Mini Quiz 
+Requirements: 
+5 questions (multiple choice) 
+Track score 
+Show final result at end 
+Example: 
+Score: 4 / 5 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Quiz</title>
+  <style>
+    body { font-family: Arial; padding: 20px; font-size: 18px; }
+    .question { margin-bottom: 15px; }
+    button { padding: 8px 14px; font-size: 16px; margin-top: 10px; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+  <div id="quiz"></div>
+  <button onclick="submitQuiz()">Submit Quiz</button>
+
+  <div id="result"></div>
+
+  <script>
+    const quizData = [
+      {
+        question: "1. Which HTML tag is used for JavaScript?",
+        options: ["<js>", "<script>", "<javascript>", "<code>"],
+        answer: "<script>"
+      },
+      {
+        question: "2. Which symbol is used for comments in JS?",
+        options: ["//", "/* */", "#", "<!-- -->"],
+        answer: "//"
+      },
+      {
+        question: "3. What does DOM stand for?",
+        options: ["Document Order Model", "Document Object Model", "Data Object Management", "Digital Ordinance Model"],
+        answer: "Document Object Model"
+      },
+      {
+        question: "4. Javascript is ___ language.",
+        options: ["Static", "Compiled", "Object-oriented", "Interpreted"],
+        answer: "Interpreted"
+      },
+      {
+        question: "5. Which keyword declares a variable in JS?",
+        options: ["var", "let", "const", "All of the above"],
+        answer: "All of the above"
+      }
+    ];
+
+    const quizContainer = document.getElementById("quiz");
+
+    quizData.forEach((q, i) => {
+      const div = document.createElement("div");
+      div.classList.add("question");
+
+      let optionsHtml = "";
+      q.options.forEach(option => {
+        optionsHtml += `
+          <label>
+            <input type="radio" name="q${i}" value="${option}"> ${option}
+          </label><br>
+        `;
+      });
+
+      div.innerHTML = `<p>${q.question}</p>${optionsHtml}`;
+      quizContainer.appendChild(div);
+    });
+
+    function submitQuiz() {
+      let score = 0;
+
+      quizData.forEach((q, i) => {
+        const selected = document.querySelector(`input[name="q${i}"]:checked`);
+        if (selected && selected.value === q.answer) {
+          score++;
+        }
+      });
+
+      document.getElementById("result").innerHTML = `<br><b>Score: ${score} / 5</b>`;
+    }
+  </script>
+
+</body>
+</html>

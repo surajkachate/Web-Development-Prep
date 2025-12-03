@@ -1,0 +1,44 @@
+<!-- Fetch Data From API 
+Example public API: 
+https://jsonplaceholder.typicode.com/users 
+Requirements: 
+Fetch users 
+Display list of names in HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fetch Users</title>
+  <style>
+    body {
+      font-family: Arial;
+      font-size: 18px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="fetchUsers()">Load Users</button>
+  <ul id="userList"></ul>
+
+  <script>
+    function fetchUsers() {
+      fetch("https://jsonplaceholder.typicode.com/users")
+        .then(response => response.json())
+        .then(data => {
+          const list = document.getElementById("userList");
+          list.innerHTML = "";
+
+          data.forEach(user => {
+            const li = document.createElement("li");
+            li.textContent = user.name;
+            list.appendChild(li);
+          });
+        });
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!-- Sort Numbers in Array 
+Requirements: Ask user for a list of numbers (comma separated) 
+Example: 12, 5, 8, 1, 4 Sort them and display in ascending order. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sort Numbers</title>
+  <style>
+    input {
+      width: 260px;
+      padding: 6px;
+      font-size: 16px;
+    }
+    button {
+      padding: 6px 12px;
+      margin-left: 5px;
+      font-size: 16px;
+    }
+    #result {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <input type="text" id="numbers" placeholder="Enter numbers (comma separated)">
+  <button onclick="sortNumbers()">Sort</button>
+
+  <div id="result"></div>
+
+  <script>
+    function sortNumbers() {
+      const input = document.getElementById("numbers").value;
+
+      // Split by comma, trim spaces, convert to number
+      let arr = input.split(",").map(num => parseFloat(num.trim()));
+
+      // Sort array ascending
+      arr.sort((a, b) => a - b);
+
+      document.getElementById("result").innerText = "Sorted: " + arr.join(", ");
+    }
+  </script>
+
+</body>
+</html>

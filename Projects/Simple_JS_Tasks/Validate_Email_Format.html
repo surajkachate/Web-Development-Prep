@@ -1,0 +1,54 @@
+<!-- Validate Email Format 
+Requirements: 
+User enters email 
+JS checks: 
+contains @ and . 
+not starting with @ 
+Display: “Valid email” or “Invalid email” -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Email Validation</title>
+  <style>
+    input {
+      padding: 6px;
+      font-size: 16px;
+      width: 240px;
+    }
+    #result {
+      margin-top: 8px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <input type="text" id="email" placeholder="Enter email">
+  <button onclick="validateEmail()">Check</button>
+
+  <div id="result"></div>
+
+  <script>
+    function validateEmail() {
+      const email = document.getElementById("email").value;
+      const result = document.getElementById("result");
+
+      if (
+        email.includes("@") && 
+        email.includes(".") && 
+        !email.startsWith("@")
+      ) {
+        result.textContent = "Valid email";
+        result.style.color = "green";
+      } else {
+        result.textContent = "Invalid email";
+        result.style.color = "red";
+      }
+    }
+  </script>
+
+</body>
+</html>

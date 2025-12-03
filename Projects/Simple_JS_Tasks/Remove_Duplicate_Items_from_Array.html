@@ -1,0 +1,49 @@
+<!-- Remove Duplicate Items from Array 
+Requirements: 
+Input: [1,2,2,3,4,4,5] 
+Output: [1,2,3,4,5] -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Remove Duplicates</title>
+  <style>
+    input {
+      width: 260px;
+      padding: 6px;
+      font-size: 16px;
+    }
+    button {
+      padding: 6px 12px;
+      margin-left: 5px;
+      font-size: 16px;
+    }
+    #result {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <input type="text" id="numbers" value="1,2,2,3,4,4,5" placeholder="Enter numbers">
+  <button onclick="removeDuplicates()">Remove Duplicates</button>
+
+  <div id="result"></div>
+
+  <script>
+    function removeDuplicates() {
+      const input = document.getElementById("numbers").value;
+
+      let arr = input.split(",").map(num => parseFloat(num.trim()));
+
+      let unique = [...new Set(arr)];
+
+      document.getElementById("result").innerText = "Result: " + unique.join(", ");
+    }
+  </script>
+
+</body>
+</html>
