@@ -21,12 +21,21 @@ A comprehensive repository containing structured study materials, notes, PPTs, d
 
 ## [Web Development Projects (Code)](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects) 
 - [Login Register Form: HTML, CSS, JS & Local Storage](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects/Login_Register)
-- [Character Counter for Text Input](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects/Simple_JS_Tasks)
-- [Countdown Timer](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects/Simple_JS_Tasks)
-- [Create a Mini Quiz](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects/Simple_JS_Tasks)
-- [Fetch Data from API](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects/Simple_JS_Tasks)
-- [Image Slider](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects/Simple_JS_Tasks)
-- [Kayboard Key Detection](https://github.com/surajkachate/MEAN-Stack-Prep/tree/main/Projects/Simple_JS_Tasks)
+- [Character Counter for Text Input](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Character_Counter_for_Text_Input.html)
+- [Countdown Timer](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Countdown_Timer.html)
+- [Create a Mini Quiz](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Create_a_Mini_Quiz.html)
+- [Fetch Data from API](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Fetch_Data_From_API.html)
+- [Image Slider](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Image_Slider.html)
+- [Kayboard Key Detection](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Keyboard_key_detection.html)
+- [Local Storage Notes](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Local_Storage_Notes.html)
+- [Password Strength Checker](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Password_Strength_Checker.html)
+- [Random Background Color Generator](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Random_Background_Color_Generator.html)
+- [Remove Duplicates Items from Array](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Remove_Duplicate_Items_from_Array.html)
+- [Simple Calculator](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Simple_Calculator.html)
+- [Simple Stopwatch](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Simple_Stopwatch.html)
+- [Sort Numbers in Array](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Sort_Numbers_in_Array.html)
+- [Toggle Dark Mode](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Toggle_Dark_Mode.html)
+- [Validate Email Format](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Projects/Simple_JS_Tasks/Validate_Email_Format.html)
 
 ---
 
