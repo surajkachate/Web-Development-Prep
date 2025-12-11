@@ -15,7 +15,7 @@ A comprehensive repository containing structured study materials, notes, PPTs, d
 ## Learn MEAN Stack (PPT-Notes)
 
 - [Introduction](https://www.canva.com/design/DAG2UkLR1nc/wV4cpVZgz0eiGcT_gX84Vw/edit?utm_content=DAG2UkLR1nc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- [MongoDB](https://www.canva.com/design/DAG5xmOPwAM/0ot25USaGFUHHS1IzdHLRA/edit?utm_content=DAG5xmOPwAM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [MongoDB](https://www.canva.com/design/DAG5xmOPwAM/0ot25USaGFUHHS1IzdHLRA/edit?utm_content=DAG5xmOPwAM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) [MongoDB Queries & Examples](https://docs.google.com/document/d/155UMDbqQNP4Zd8rm2viFO6Dn-IXAKIRjQkbIyBRpfzc/edit?usp=sharing)
 
 ---
 
