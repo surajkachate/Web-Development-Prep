@@ -1,6 +1,6 @@
 # 📚 MEAN Stack Preparation Resources
 
-A comprehensive repository containing structured study materials, notes, PPTs, diagrams, sample projects, interview questions, and deployment guides to prepare for the **MEAN Stack** (MongoDB, ExpressJS, Angular, Node.js).
+A comprehensive repository containing structured study materials, notes, PPTs, diagrams, sample projects, interview questions, and deployment guides to prepare for the **MEA(R)N Stack** (MongoDB, ExpressJS, Angular, React.js, Node.js).
 
 ---
 
@@ -16,6 +16,10 @@ A comprehensive repository containing structured study materials, notes, PPTs, d
 
 - [Introduction](https://www.canva.com/design/DAG2UkLR1nc/wV4cpVZgz0eiGcT_gX84Vw/edit?utm_content=DAG2UkLR1nc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [MongoDB](https://www.canva.com/design/DAG2WJq5YQ8/y7ruE17EEhjQeD7Vmye5Tg/edit?utm_content=DAG2WJq5YQ8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) , [MongoDB Queries](https://docs.google.com/document/d/155UMDbqQNP4Zd8rm2viFO6Dn-IXAKIRjQkbIyBRpfzc/edit?usp=sharing)
+
+---
+
+## Learn React.js (PPT-Notes)
 
 ---
 
@@ -50,6 +54,17 @@ A comprehensive repository containing structured study materials, notes, PPTs, d
 
 ---
 
+## What is MERN?
+
+**MEAN** is a full-stack JavaScript technology stack consisting of:
+
+- **MongoDB** — NoSQL database
+- **ExpressJS** — Backend web framework
+- **React.js** — Frontend application framework
+- **NodeJS** — JavaScript runtime for server-side development
+
+---
+
 ## Repository Purpose
 
 This repository is created to:
@@ -74,6 +89,7 @@ Each folder contains topic-wise markdown notes, diagrams, examples, and explanat
 ## Topics Covered
 - Web Development Basics
 - MEAN Stack
+- React.js
 
 ---
 
@@ -108,19 +124,6 @@ Make sure you have installed:
 6. Integrate Angular ↔ Node
 7. Add authentication (JWT)
 8. Deploy your project
-
----
-
-## Roadmap
-
-Week 1 → JS + NodeJS
-Week 2 → Express + REST APIs
-Week 3 → MongoDB + Mongoose
-Week 4 → Angular Fundamentals
-Week 5 → Full-stack Integration
-Week 6 → Authentication + Deployment
-Week 7 → Practice Projects + Optimization
-
 
 ---
 
