@@ -1,4 +1,4 @@
-# 📚 MEAN Stack Preparation Resources
+# 📚 Web Development Preparation Resources
 
 A comprehensive repository containing structured study materials, notes, PPTs, diagrams, sample projects, interview questions, and deployment guides to prepare for the **MEA(R)N Stack** (MongoDB, ExpressJS, Angular, React.js, Node.js).
 
