@@ -16,6 +16,7 @@ A comprehensive repository containing structured study materials, notes, PPTs, d
 
 - [Introduction](https://www.canva.com/design/DAG2UkLR1nc/wV4cpVZgz0eiGcT_gX84Vw/edit?utm_content=DAG2UkLR1nc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [MongoDB](https://www.canva.com/design/DAG5xmOPwAM/0ot25USaGFUHHS1IzdHLRA/edit?utm_content=DAG5xmOPwAM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Node.js & Express.js](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Nodejs_and_Expressjs.pdf)
 
 ---
 
