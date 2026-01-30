@@ -1,4 +1,4 @@
-const User = require('./models/User');
+const User = require("../models/User");
 
 const login = async (req, res) => {
     try{
@@ -6,7 +6,7 @@ const login = async (req, res) => {
         await User.create({username: username, email: email, password: password});
         res.json({message: "Data inserted succesfully"});
     }catch(e){
-        console.log(`Error occur while insertion ${e}`);
+        console.log("Error occur while insertion");
     }
 }
 

@@ -1,8 +1,8 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const dotenv = require('dotenv');
-const connectDB = require('./config/db')
-const authRoutes = require('./routes/authRoutes');
+const express = require("express");
+const mongoose = require("mongoose");
+const dotenv = require("dotenv");
+const connectDB = require("./config/db")
+const authRoutes = require("./routes/authRoutes");
 
 //Base URL: http://localhost:3000
 
