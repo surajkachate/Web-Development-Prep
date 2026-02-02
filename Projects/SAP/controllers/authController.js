@@ -1,6 +1,6 @@
 const User = require("../models/User");
 
-const register = async (req, res) => {
+exports.register = async (req, res) => {
     const { username, email, password } = req.body;
     try{
         console.log({username, email, password});
@@ -15,7 +15,7 @@ const register = async (req, res) => {
     }
 }
 
-const login = async (req, res) => {
+exports.login = async (req, res) => {
     const { email, password } = req.body;
     try{
         const user = await User.findOne({email});
@@ -28,4 +28,4 @@ const login = async (req, res) => {
     }
 }
 
-module.exports = {register, login};
+// module.exports = {register, login};
