@@ -3,6 +3,7 @@ const User = require("../models/User");
 const login = async (req, res) => {
     try{
         const { username, email, password } = req.body;
+        console.log({username, email, password});
         await User.create({username: username, email: email, password: password});
         res.json({message: "Data inserted succesfully"});
     }catch(e){
@@ -10,4 +11,4 @@ const login = async (req, res) => {
     }
 }
 
-module.exports = login;
+module.exports = {login};
