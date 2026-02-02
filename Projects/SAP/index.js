@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 
 // POST request 
-// http://localhost:3000/api/login
+// http://localhost:3000/api/register
 app.use("/api", AuthRoutes);
 
 app.listen(process.env.PORT, ()=>{
