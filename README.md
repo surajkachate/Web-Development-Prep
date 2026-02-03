@@ -15,7 +15,7 @@ A comprehensive repository containing structured study materials, notes, PPTs, d
 ## Learn MEAN Stack (PPT-Notes)
 
 - [Introduction](https://www.canva.com/design/DAG2UkLR1nc/wV4cpVZgz0eiGcT_gX84Vw/edit?utm_content=DAG2UkLR1nc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- [MongoDB](https://www.canva.com/design/DAG5xmOPwAM/0ot25USaGFUHHS1IzdHLRA/edit?utm_content=DAG5xmOPwAM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), [MongoDB Queries](https://docs.google.com/document/d/155UMDbqQNP4Zd8rm2viFO6Dn-IXAKIRjQkbIyBRpfzc/edit?tab=t.0#heading=h.98n8ogdwb6v9)
+- [MongoDB](https://www.canva.com/design/DAG2WJq5YQ8/y7ruE17EEhjQeD7Vmye5Tg/edit?utm_content=DAG2WJq5YQ8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), [MongoDB Queries](https://docs.google.com/document/d/155UMDbqQNP4Zd8rm2viFO6Dn-IXAKIRjQkbIyBRpfzc/edit?tab=t.0#heading=h.98n8ogdwb6v9)
 - [Node.js & Express.js](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Nodejs_and_Expressjs.pdf), [API Request](https://docs.google.com/document/d/1z-JowzafiS7v-qXOjAfH6LSPb0HcM_bnvdeSXX5Dgys/edit?usp=sharing)
 
 ---
