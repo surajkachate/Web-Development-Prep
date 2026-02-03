@@ -10,4 +10,13 @@ const register = async (req, res) => {
     }
 }
 
-module.exports = {register};
+const login = async (req, res) => {
+    const { email, password } = req.body;
+    try{
+
+    }catch(e){
+
+    }
+}
+
+module.exports = {register, login};
