@@ -14,7 +14,7 @@ app.use(express.json());
 
 // POST request 
 // http://localhost:3000/api/register
-app.use("/api", AuthRoutes);
+app.use("/api/auth", AuthRoutes);
 
 app.listen(process.env.PORT, ()=>{
     console.log(`Server started on PORT ${process.env.PORT}`);
