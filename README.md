@@ -4,6 +4,13 @@ A comprehensive repository containing structured study materials, notes, PPTs, d
 
 ---
 
+## Learn MEAN Stack (PDF-Notes)
+
+- [All Units Notes](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Books/MEAN-Web-Development-Amos-Q-Haviv.pdf)
+- [MongoDB Handbook](https://github.com/surajkachate/MEAN-Stack-Prep/blob/main/Books/MongoDB Handbook.pdf)
+
+---
+
 ## Learn Web Development Basics (PPT-Notes)
 
 - [HTML](https://www.canva.com/design/DAG5uN3b_cU/JGr66BDCILLUWHZ2_loHWA/edit?utm_content=DAG5uN3b_cU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
